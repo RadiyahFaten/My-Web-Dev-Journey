@@ -1,0 +1,24 @@
+.square:nth-child(odd){
+    background-color: red;
+  }
+  
+  .square:nth-child(even){
+    background-color: black;
+  }
+
+/* .square:nth-of-type(2n-1)
+{
+    background-color: #971616;
+}
+
+.square:nth-of-type(2n){
+    background-color: black;
+}
+   */
+  h1 {
+    text-align: center;
+    color: #971616;
+    text-decoration: underline;
+  }
+
+

@@ -1,0 +1,13 @@
+li {
+    color: blue;
+    font-weight: 400;
+}
+
+.tag { 
+    color: grey;
+}
+#clearlist
+{ 
+    background-color: red;
+    color: white;
+}

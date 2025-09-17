@@ -1,0 +1,51 @@
+h2 {
+    color: #599971;
+}
+
+h1 {
+    color: #1B8554;
+    text-align: center;
+    font-weight: 800;
+    font-size: 50px ;
+    text-decoration: #599BFF underline dotted;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', 'Arial', sans-serif;
+}
+
+a {
+    text-decoration: none;  
+    color: aqua;
+}
+
+ 
+#para {
+
+    color: brown;
+}
+
+.red {
+    font-size: 30px;
+    color: #599971;
+}
+
+li {
+    color: blue;
+}
+
+.done {
+
+    color: grey;
+}
+
+#clear {
+
+    color: white;
+    background-color: red;
+}
+
+#todos {
+
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+
+}

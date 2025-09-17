@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> More Form Inputs </title>
+</head>
+
+<body>
+
+    <h1> Selection Inputs in a Form </h1>
+
+    <form action="/birds">
+        <div>
+            <h2>Checkboxes</h2>
+
+
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree"> I agree to everything </label>
+            <button> Submit </button>
+        </div>
+
+        <h2> Radio </h2>
+        <!-- all the input element should have the same name attribute -->
+        <div><input type="radio" name="size" value="extra small" id="choose">
+
+            <!-- http://127.0.0.1:5500/birds?size=extra+small
+     The 'value' attribute shows us the option we've chosen in the URL-->
+
+            <label for="choose">Extra small</label>
+        </div>
+        <div><input type="radio" name="size" value="small" id="choose">
+            <label for="choose">Small</label>
+        </div>
+        <div><input type="radio" name="size" value="medium" id="choose">
+            <label for="choose">Medium</label>
+        </div>
+        <div> <button>Submit</button> </div>
+
+
+        <hr>
+        <h2>Select Element</h2>
+
+
+        <div>
+
+            <label for="cake">Choose an wedding cake </label>
+            <select name="cake" id="cake">
+                <option value="">--Please choose from below--</option>
+                <!-- If you don't add to the value attribute, it can't be selected. -->
+
+                <option value="Chocolate">Chocolate</option>
+                <option value="Vanilla">Vanilla</option>
+                <option value="Cheesecake">Cheesecake</option>
+                <option value="Strawberry">Strawberry</option>
+
+            </select>
+        </div>
+        <button>Submit</button>
+
+
+
+
+        </div>
+
+    </form>
+
+
+
+    <form action="/shawarma">
+
+        <h2>Range Input Type </h2>
+        <label for="cheese">Amount of cheese</label>
+        <input type="range" name="cheese_level" id="cheese" min="1" max="10" value="5">
+        <!-- value shows the inital dot point for the range
+  Step attribute jumps the number that's given. Example: step=2 means initial value+2+2+2....(with every step, 2 is added) -->
+
+        <input type="submit" value="submit">
+
+
+
+    </form>
+
+    <h2> Text Area Element</h2>
+
+    <label for="story">Tell us a story:</label>
+    <textarea name="story" id="story" rows="10" cols="69" placeholder="write here" name="story_teller"></textarea>
+    <div><button>Submit</button>
+    </div>
+
+    <form action="/nuts">
+        <div>
+
+            <label for="username">Username</label>
+            <input type="text" name="name" id="username" required>
+
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="text" name="pass" id="password" minlength="3" maxlength="8" required>
+        </div>
+        <DIV>
+            <label for="okay">Email</label>
+<input type="email" name="blah" id="okay" required>
+        </DIV>
+
+        <div><label for="okayy">URL</label>
+        <input type="URL" name="ok" id="okayy"></div>
+<button>Submit</button>
+
+
+    </form>
+
+
+
+
+
+
+
+</body>
+
+</html>

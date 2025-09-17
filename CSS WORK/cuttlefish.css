@@ -1,0 +1,28 @@
+
+
+/* This is everything we've leanrt in CSS Basic 06 */
+
+h1 {text-align: center;
+    font-weight : 700;
+    text-decoration: #ff7798 underline solid  ;
+    letter-spacing: 2px ;
+    font-size: 33px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif */
+font-family: monospace;
+}
+ 
+h2 {
+  color: #581845;
+  text-decoration: underline #ff7798;
+line-height: 3;
+text-transform: uppercase;
+}
+
+a {text-decoration: none ;
+    color: #dc264d
+    ;
+    font-size: 25px;
+}
+
+p { line-height: 2 ;
+font-size: 17px;} 

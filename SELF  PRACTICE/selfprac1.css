@@ -1,0 +1,98 @@
+ body{ 
+    background-color: #dbf2f8;
+}
+
+ nav a {
+    color: #e63946;
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 20px;
+    font-family: Papyrus, Fantasy ;
+   
+}
+
+nav label {
+    color: #1f1f81;
+    font-size: 18px;
+}
+
+nav button {
+    color: beige;
+    background-color: #3b8cde;
+}
+
+nav button:hover
+{
+    background-color: #a30404;
+}
+
+h1{ color: #03045e;
+    font-family: Lucida Sans Typewriter
+    ;
+}
+
+header h2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #207eb9; 
+    
+}
+
+header p { 
+    line-height: 2;
+    font-size: 18px;
+}
+
+.head {
+color: #a30404;
+}
+
+.head:hover {
+background-color: #e58352;
+}
+.head:active
+{
+    background-color: #b9be11;
+}
+ 
+ul a { 
+    color: #335c67;
+    text-decoration: none;
+}
+
+.library
+{
+    color: #301194;
+}
+
+
+ul a:hover {
+    background-color: #e58352;
+    }
+    ul a:active
+    {
+        background-color: #b9be11;
+    }
+ol 
+{
+    color: #ca6702;
+}
+
+ol+h2 {
+    color: #070a86;
+}
+
+thead {
+    color: #125ba9;
+}
+form>h2 {
+    color:#070a86;
+}
+
+.form 
+
+{ color: #062648;}
+
+section button:hover {
+
+    background-color: #207eb9;
+}

@@ -1,0 +1,145 @@
+/*     * {color: #cd577c;
+background-color: #f3d0d6;}- This is the universal selector   */
+
+body
+{
+    background-color:#d2f8f1 ;
+}
+
+
+
+h1,h2 { color: #0b2545;
+}
+button {
+    font-size: 20px;
+    background-color: #52796f;
+}
+
+
+#signup {
+    background-color: #001d3d;
+    color: beige;
+    /* '#' is for ID selector */
+     
+}
+    
+span {
+    color: #15616d;
+;
+}
+
+.tag {
+    color: aliceblue;
+    background-color: #8d0801;
+    /* '.' dot is for class selector */
+}
+
+.post a { 
+    color:#15616d;
+    font-weight: 700;
+    text-decoration: none;
+
+    /* Here the descendent is nested inside a parent class element. */
+    
+}
+
+/* span a { 
+    color:#15616d;
+    
+} */
+
+/* The 'space between span and anchor tag mean the descendent selector. It selectors all the anchor tags inside the span tags */
+footer a {
+    color: #e76f51;
+    text-decoration: none;
+}
+
+
+input+ button {
+    background-color: palevioletred;
+    color: white;
+}
+
+h2+ button {
+    font-size: 15px;
+    background-color: #44a5b4;
+}
+
+footer > a  {
+    color: #135543;
+   
+}
+
+input[type="password"]
+{ 
+    color: #1d4d81;
+    
+}
+
+section[class="post"]
+{
+    background-color: #8fb0ed;
+ /* or .post { background-color: cornflowerblue;} does the same shit */
+}
+
+/* IF THERE WERE MORE ELEMENTS OTHER THAN 'SECTION' THAT HAD THE CLASS ATTRIBUTE 'POST' (EXAMPLE: ANOTHER DIV, NAV, FOOTER HEADER WHATEVER) AND I ONLY WANTED TO SELECT THE ONE WITH THE SECTION, WE COULD WRITE IT LIKE THIS:
+section.post {
+}  */
+
+button:hover {
+    color: #d2f8f1;
+    background-color: #8d0801 ;
+}
+
+.post a:hover { 
+     text-decoration: underline;
+}
+
+footer a:hover {
+text-decoration: line-through;
+}
+
+
+.post button:active {
+    background-color: #fefe2b;
+}
+
+.post:nth-of-type(2n-1) {
+
+    background-color: #e38556;
+}
+
+h2::first-letter {
+    font-size: 30px;
+}
+
+/* p::first-line {
+    font-weight: 600;
+color: #8d0801;
+} */
+
+p::selection {
+    background-color: #b29687;
+}
+/* ::selection {
+    background-color: #b29687;
+} This will put the pseudo element to everything */
+
+
+p::before
+{ 
+    content:"Look what you made me do";
+    background-color: #44a5b4;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+p::after
+{ 
+    content:"Look what you made me do";
+    background-color: #44a5b4;
+    font-weight: 500;
+    font-size: 30px;
+}
+
