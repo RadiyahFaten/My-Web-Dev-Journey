@@ -1,0 +1,32 @@
+#first {
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 10px;
+}
+
+#middle {
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(235, 198, 94);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 10px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#last {
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(158, 235, 94);
+    border: 2px solid rgb(0, 0, 0);
+    display: inline-block;
+    margin: 10px;
+}
